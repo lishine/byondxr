@@ -1,28 +1,13 @@
 {
-	"name": "example-app",
-	"type": "module",
-	"private": true,
-	"version": "0.1.0",
-	"description": "ByondXR example-app",
-	"author": "Pavel Ravits",
-	"homepage": "",
-	"license": "MIT",
-	"keywords": [
-		"react",
-		"eslint-plugin",
-		"recoil"
-	],
-	"engines": {
-		"node": ">=18.x",
-		"pnpm": ">=8.x"
-	},
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview"
 	},
-  "packageManager": "pnpm@8.7.6",
   	"dependencies": {
 		"@testing-library/jest-dom": "^6.1.5",
 		"@testing-library/react": "^14.1.2",
@@ -59,7 +44,13 @@
 		"@changesets/cli": "^2.27.1",
         "@types/react": "^18.2.43",
 		"@types/react-dom": "^18.2.17",
-		"typescript": "^5.2.2",
-		"vite": "^5.0.8"
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
 	}
 }
