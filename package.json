@@ -22,8 +22,8 @@
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview"
 	},
-	"preinstall": "npx only-allow pnpm",
-	"dependencies": {
+  "packageManager": "pnpm@8.7.6",
+  	"dependencies": {
 		"@testing-library/jest-dom": "^6.1.5",
 		"@testing-library/react": "^14.1.2",
 		"@typescript-eslint/eslint-plugin": "^6.19.1",
