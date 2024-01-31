@@ -1,6 +1,4 @@
 module.exports = {
-	root: true,
-	ignorePatterns: ['**/*'],
 	env: {
 		node: true,
 		browser: true,
@@ -14,6 +12,7 @@ module.exports = {
 		'jsx-a11y',
 		'@byondxr/automate',
 	],
+	ignorePatterns: ['dist', '.eslintrc.cjs'],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaFeatures: {
